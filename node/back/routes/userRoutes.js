@@ -36,6 +36,7 @@ router.post('/login', async (req, res) => {
       res.status(500).json({ error: err.message });
     }
   });
+  
 // Criar um novo usuário
 router.post('/users', async (req, res) => {
   const { name, email, password } = req.body;
