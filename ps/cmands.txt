@@ -1,0 +1,42 @@
+$name = "ccod"
+$lastName = "dantas"
+
+$full = $name + $lastName;
+
+$age = 23
+
+if ($ge -ge 18)
+{
+    "More"
+} 
+else{
+    "less"
+}
+
+for ($i = 1; $i -le 5; $i++)
+{
+    "aaa: $i"
+}
+
+ccc = 1
+
+while ($ccc -le 6){
+    "cont: $ccc"
+    ccc++
+}
+
+function say($name)
+[
+    "aa: $name"
+]
+
+say -name "charles"
+
+$process = Get-Process -Name "google"
+$process.id
+$process.cpu
+
+Get-Service -Name "Spotify"
+
+Start-Service -name "Google"
+Stop-Process -Name "Google"
